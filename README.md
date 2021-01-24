@@ -14,4 +14,5 @@ Breast Cancer (malignant, benign) -> Classification : Discrete valued output (0 
 Tumor size에 따른 양성, 악성 판별문제.
 ![tumor](https://user-images.githubusercontent.com/67510613/105625656-03513800-5e6e-11eb-8c6b-490fbd461fbc.JPG)
 Tumor size, age에 따른 양성, 악성 판별문제.
+![tumorage](https://user-images.githubusercontent.com/67510613/105625741-8c686f00-5e6e-11eb-9020-b89b6efd85ed.JPG)
 
