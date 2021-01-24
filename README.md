@@ -12,3 +12,4 @@ Supervised learning은 우리가 알고리즘에 데이터셋을 주는데 각 �
 <br>회귀문제: 연속된 값을 가진 결과를 예측하려 하는것<br><br>
 Breast Cancer (malignant, benign) -> Classification : Discrete valued output (0 or 1)<br>
 Tumor size에 따른 양성, 악성 판별문제.
+![tumor](https://user-images.githubusercontent.com/67510613/105625656-03513800-5e6e-11eb-8c6b-490fbd461fbc.JPG)
