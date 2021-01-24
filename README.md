@@ -22,6 +22,17 @@ Tumor size, age에 따른 양성, 악성 판별문제.
 
 <h3>What is Unsupervised learning?</h3><br>
 데이터 레이블이 주어지지않는다. 이것으로 뭘할지 또 각 데이터가 무엇인지 알 수 없다.<br>
-clustering algorithm
+1. clustering algorithm
 ![clustering](https://user-images.githubusercontent.com/67510613/105629761-3b657480-5e88-11eb-95f4-b2bd4782a045.JPG)
+스스로 그룹화하는 것?<br><br>
+
+
+2. Cocktail party problem<br>
+여러 잡음이 존재하고 다양한 오디오를 각각 분리한다.<br>
+[W,s,v]=svd((repmat(sum(x.*x,1),size(x,1),1).*x)*x');<br>
+*수업에서 Octave programming environment를 사용할 것임.<br>
+svd함수는 특이값분해(singular value decomposition)의 약자_octave내장함수임
+
+
+
 
