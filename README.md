@@ -23,4 +23,5 @@ Tumor size, age에 따른 양성, 악성 판별문제.
 <h3>What is Unsupervised learning?</h3><br>
 데이터 레이블이 주어지지않는다. 이것으로 뭘할지 또 각 데이터가 무엇인지 알 수 없다.<br>
 clustering algorithm
+![clustering](https://user-images.githubusercontent.com/67510613/105629761-3b657480-5e88-11eb-95f4-b2bd4782a045.JPG)
 
