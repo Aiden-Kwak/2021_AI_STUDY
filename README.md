@@ -1,5 +1,6 @@
 # coursera-machine-learning-Andrew-Ng-
-coursera machine learning(Andrew Ng)
+coursera machine learning(Andrew Ng)<br>
+https://www.coursera.org/learn/machine-learning#syllabus
 
 <h3>1 week</h3><br>
 Machine learning algorithm: Supervised learning, Unsupervised learning<br>
