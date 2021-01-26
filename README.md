@@ -66,7 +66,7 @@ Non-clustering: The "Cocktail Party Algorithm", allows you to find structure in 
 <br>Function h is called htpothesis.
 <hr>
 <h3>Cost function</h3><br>
-
+<img src="https://user-images.githubusercontent.com/67510613/105865886-b5d3f700-6036-11eb-84e7-fb705c826a50.JPG">
 
 
 
