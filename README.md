@@ -19,6 +19,15 @@ Tumor size, age에 따른 양성, 악성 판별문제.
 <br><br>
 이렇게 1,2개 특성이 아니라 무한대의 특성을 다루려면 어떻게해야하는가? <br>
 -> Support Vector Machine Algorithm<br><br>
+<hr>
+<h3>Supervised Learning</h3><br>
+In supervised learning, we are given a data set and already know what our correct output should look like, <br>
+having the idea that there is a relationship between the input and the output.<br><br>
+
+Supervised learning problems are categorized into "regression" and "classification" problems. In a regression<br> problem, we are trying to predict results within a continuous output, meaning that we are trying to map input <br>
+variables to some continuous function. In a classification problem, we are instead trying to predict results <br>
+in a discrete output. In other words, we are trying to map input variables into discrete categories. <br>
+<hr><br>
 
 
 <h3>What is Unsupervised learning?</h3><br>
