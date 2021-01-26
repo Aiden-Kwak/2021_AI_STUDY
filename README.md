@@ -34,6 +34,23 @@ Tumor size, age에 따른 양성, 악성 판별문제.
 *수업에서 Octave programming environment를 사용할 것임.<br>
 svd함수는 특이값분해(singular value decomposition)의 약자_octave내장함수임
 <hr>
+<h3>Unsupervised Learning</h3><br>
+Unsupervised learning allows us to approach problems with little or no idea what our results should look like. <br>
+We can derive structure from data where we don't necessarily know the effect of the variables.<br>
+
+We can derive this structure by clustering the data based on relationships among the variables in the data.<br>
+
+With unsupervised learning there is no feedback based on the prediction results.<br>
+<br>
+<strong>Example:</strong><br>
+<br>
+Clustering: Take a collection of 1,000,000 different genes, and find a way to automatically group these genes <br>
+into groups that are somehow similar or related by different variables, such as lifespan, location, roles, <br>
+and so on.<br><br>
+
+Non-clustering: The "Cocktail Party Algorithm", allows you to find structure in a chaotic environment. <br>
+(i.e. identifying individual voices and music from a mesh of sounds at a cocktail party).<br>
+<hr>
 
 
 
