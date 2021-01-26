@@ -13,9 +13,9 @@ Supervised learning은 우리가 알고리즘에 데이터셋을 주는데 각 �
 <br>회귀문제: 연속된 값을 가진 결과를 예측하려 하는것<br><br>
 Breast Cancer (malignant, benign) -> Classification : Discrete valued output (0 or 1)<br>
 Tumor size에 따른 양성, 악성 판별문제.
-<img src="https://user-images.githubusercontent.com/67510613/105625656-03513800-5e6e-11eb-8c6b-490fbd461fbc.JPG"
+<img src="https://user-images.githubusercontent.com/67510613/105625656-03513800-5e6e-11eb-8c6b-490fbd461fbc.JPG">
 Tumor size, age에 따른 양성, 악성 판별문제.
-![tumorage](https://user-images.githubusercontent.com/67510613/105625741-8c686f00-5e6e-11eb-9020-b89b6efd85ed.JPG)
+<img src="https://user-images.githubusercontent.com/67510613/105625741-8c686f00-5e6e-11eb-9020-b89b6efd85ed.JPG">
 <br><br>
 이렇게 1,2개 특성이 아니라 무한대의 특성을 다루려면 어떻게해야하는가? <br>
 -> Support Vector Machine Algorithm<br><br>
@@ -33,7 +33,7 @@ in a discrete output. In other words, we are trying to map input variables into 
 <h3>What is Unsupervised learning?</h3><br>
 데이터 레이블이 주어지지않는다. 이것으로 뭘할지 또 각 데이터가 무엇인지 알 수 없다.<br>
 1. clustering algorithm
-![clustering](https://user-images.githubusercontent.com/67510613/105629761-3b657480-5e88-11eb-95f4-b2bd4782a045.JPG)
+<img src="https://user-images.githubusercontent.com/67510613/105629761-3b657480-5e88-11eb-95f4-b2bd4782a045.JPG">
 스스로 그룹화하는 것?<br><br>
 
 
