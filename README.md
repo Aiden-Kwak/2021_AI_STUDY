@@ -33,6 +33,7 @@ Tumor size, age에 따른 양성, 악성 판별문제.
 [W,s,v]=svd((repmat(sum(x.*x,1),size(x,1),1).*x)*x');<br>
 *수업에서 Octave programming environment를 사용할 것임.<br>
 svd함수는 특이값분해(singular value decomposition)의 약자_octave내장함수임
+<hr>
 
 
 
