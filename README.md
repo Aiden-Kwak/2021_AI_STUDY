@@ -1,6 +1,12 @@
 # coursera-machine-learning-Andrew-Ng-
 coursera machine learning(Andrew Ng)<br>
 https://www.coursera.org/learn/machine-learning#syllabus
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+출처: https://kwebtoon.tistory.com/246 [IT향기가 있는 공돌이 아빠의 인터넷이야기]
 
 <h3>1 week</h3><br>
 Machine learning algorithm: Supervised learning, Unsupervised learning<br>
