@@ -84,6 +84,8 @@ MSE같은 손실함수는 정담에 대한 오류를 숫자로 나타내는 것�
 <img width="415" alt="gd3" src="https://user-images.githubusercontent.com/67510613/106308004-74944f00-62a3-11eb-87cd-152e6ead8202.PNG">
 식에서 alpha를 감소시킬 이유가 없는 이유가 무엇인가? : local min값에 가까워질수록 기울기(미분계수)는 0에 가까워지고(작아지고) 따라서 <br>
 이동거리는 alpha를 fix했더라도 알아서 자연스럽게 감소한다.
+<hr>
+<h3>Cost function & Gradient decent</h3><br>
 
 
 
