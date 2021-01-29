@@ -96,8 +96,10 @@ MSE같은 손실함수는 정담에 대한 오류를 숫자로 나타내는 것�
 
 <img width="281" alt="multifeat" src="https://user-images.githubusercontent.com/67510613/106318623-8978de80-62b3-11eb-8b45-46e7abf36b3d.PNG">
 아래와 같은 식으로도 표현가능하다.
-<img width="289" alt="multifea2" src="https://user-images.githubusercontent.com/67510613/106318779-c0e78b00-62b3-11eb-816d-d6b2b2353617.PNG">
+<img width="289" alt="multifea2" src="https://user-images.githubusercontent.com/67510613/106318779-c0e78b00-62b3-11eb-816d-d6b2b2353617.PNG"><br>
 Gradient Descent for multuple variables<br>
+<img width="470" alt="multi3" src="https://user-images.githubusercontent.com/67510613/106319752-43bd1580-62b5-11eb-9b83-f9de8b9b248c.PNG">
+
 
 
 
