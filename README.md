@@ -73,7 +73,7 @@ Non-clustering: The "Cocktail Party Algorithm", allows you to find structure in 
 <hr>
 <h3>Cost function</h3><br>
 <img src="https://user-images.githubusercontent.com/67510613/105865886-b5d3f700-6036-11eb-84e7-fb705c826a50.JPG">
-$ aria-label="J, left parenthesis, theta, start subscript, 0, end subscript, comma, theta, start subscript, 1, end subscript, right parenthesis, equals, start fraction, 1, divided by, 2, m, end fraction, sum, start subscript, i, equals, 1, end subscript, start superscript, m, end superscript, left parenthesis, y, with, hat, on top, start subscript, i, end subscript, minus, y, start subscript, i, end subscript, right parenthesis, squared, equals, start fraction, 1, divided by, 2, m, end fraction, sum, start subscript, i, equals, 1, end subscript, start superscript, m, end superscript, left parenthesis, h, start subscript, theta, end subscript, left parenthesis, x, start subscript, i, end subscript, right parenthesis, minus, y, start subscript, i, end subscript, right parenthesis, squared"$
+$1/2
 
 
 
