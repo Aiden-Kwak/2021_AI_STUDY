@@ -78,6 +78,7 @@ MSE같은 손실함수는 정담에 대한 오류를 숫자로 나타내는 것�
 <br> 초기화는 일반적으로 theta1과 theta2를 모두 0으로 한다. 그리고 기울기하강법을 통해 thata1,2를 조금씩 바꾸면서 J값을 조금이라도 줄이는 것을 목표로한다.
 
 <img width="409" alt="gd2" src="https://user-images.githubusercontent.com/67510613/106301114-a94fd880-629a-11eb-9e10-21b851626909.PNG">
+<br> alpha는 훈련비율(learning rate)로 얼마나 많은 값이 변하는가에 대한 변수이다. 
 
 
 
