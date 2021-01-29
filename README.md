@@ -79,7 +79,8 @@ MSE같은 손실함수는 정담에 대한 오류를 숫자로 나타내는 것�
 
 <img width="409" alt="gd2" src="https://user-images.githubusercontent.com/67510613/106301114-a94fd880-629a-11eb-9e10-21b851626909.PNG">
 <br> alpha는 훈련비율(learning rate)로 얼마나 많은 값이 변하는가에 대한 변수이다. 
-
+<br> <strong>gradient decent 수식의 이해</strong><br>
+<img width="415" alt="gd3" src="https://user-images.githubusercontent.com/67510613/106308004-74944f00-62a3-11eb-87cd-152e6ead8202.PNG">
 
 
 
