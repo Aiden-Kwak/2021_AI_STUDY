@@ -86,7 +86,7 @@ MSE같은 손실함수는 정담에 대한 오류를 숫자로 나타내는 것�
 이동거리는 alpha를 fix했더라도 알아서 자연스럽게 감소한다.
 <hr>
 <h3>Cost function & Gradient decent</h3><br>
-
+기울기 하강을 이용해서 cost function을 최소화시켜보자
 
 
 
