@@ -88,6 +88,9 @@ MSE같은 손실함수는 정담에 대한 오류를 숫자로 나타내는 것�
 <h3>Cost function & Gradient decent</h3><br>
 기울기 하강을 이용해서 cost function을 최소화시켜보자<br>
 <img width="351" alt="cofunc,gd" src="https://user-images.githubusercontent.com/67510613/106310895-9ee80b80-62a7-11eb-8129-45a9af806716.PNG">
+<img width="274" alt="cogd" src="https://user-images.githubusercontent.com/67510613/106311330-52510000-62a8-11eb-9f0e-7c7de18628b9.PNG">
+<br>batch gradient decent? 전체 데이터셋에 대해 에러를 구하고 기울기를 한번만 계산하는 방식인거같음. 
+
 
 
 
