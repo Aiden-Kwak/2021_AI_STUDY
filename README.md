@@ -73,7 +73,7 @@ Non-clustering: The "Cocktail Party Algorithm", allows you to find structure in 
 <hr>
 <h3>Cost function</h3><br>
 <img src="https://user-images.githubusercontent.com/67510613/105865886-b5d3f700-6036-11eb-84e7-fb705c826a50.JPG">
-$1/2
+<img width="525" alt="min" src="https://user-images.githubusercontent.com/67510613/106292445-2cb7fc80-6290-11eb-89d8-c56956e31306.PNG">
 
 
 
