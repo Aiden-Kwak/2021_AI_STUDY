@@ -73,6 +73,7 @@ Non-clustering: The "Cocktail Party Algorithm", allows you to find structure in 
 <hr>
 <h3>Cost function</h3><br>
 <img src="https://user-images.githubusercontent.com/67510613/105865886-b5d3f700-6036-11eb-84e7-fb705c826a50.JPG">
+<img width="415" alt="goal" src="https://user-images.githubusercontent.com/67510613/106297264-da79da00-6295-11eb-9d84-e6bc59eb2c1b.PNG">
 <img width="525" alt="min" src="https://user-images.githubusercontent.com/67510613/106292445-2cb7fc80-6290-11eb-89d8-c56956e31306.PNG">
 MSE같은 손실함수는 정담에 대한 오류를 숫자로 나타내는 것으로 오답이 가까울 수록 큰 값이 나오고 반대로 정답에 가까울수록 작은 값이 나온다.<br>
 
