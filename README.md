@@ -94,6 +94,9 @@ MSE같은 손실함수는 정담에 대한 오류를 숫자로 나타내는 것�
 <h2>2nd week</h2><br>
 하나 이상의 변수나 feature를 다루기 위한 강력한 선형회귀를 다룬다
 
+<img width="281" alt="multifeat" src="https://user-images.githubusercontent.com/67510613/106318623-8978de80-62b3-11eb-8b45-46e7abf36b3d.PNG">
+아래와 같은 식으로도 표현가능하다.
+
 
 
 
