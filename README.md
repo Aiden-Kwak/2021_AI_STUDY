@@ -117,6 +117,13 @@ ui는 average of all the value for features(i)이고 si는 (max-min) 또는 stan
 alpha가 너무 크면 위에처럼 된다. 직접 반복횟수당 J(cost func)을 그려봐서 경사하강이 제대로 되는지를 체크할 수 있다. <br>
 제대로라면 매 반복마다 J는 감소하게 된다.
 
+<hr>
+<strong>Polynomial Regression</strong><br>
+hypothesis function은 straight 할 필요없다. quadratic, cubic or square root function이어도 된다. 
+<hr>
+<h3>Normal equation</h3><br>
+:Method to solve for theata analytically
+
 
 
 
