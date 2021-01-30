@@ -123,7 +123,21 @@ hypothesis function은 straight 할 필요없다. quadratic, cubic or square roo
 <hr>
 <h3>Normal equation</h3><br>
 :Method to solve for theata analytically
+<img width="129" alt="theta" src="https://user-images.githubusercontent.com/67510613/106352100-f1ffa400-6323-11eb-9085-43976f84b850.PNG">
+Octave: pinv(X'*X)*X'*y<br>
 
+<img width="457" alt="theta1" src="https://user-images.githubusercontent.com/67510613/106352101-f5932b00-6323-11eb-8889-8bd03a05ec90.PNG">
+<img width="592" alt="gdnm" src="https://user-images.githubusercontent.com/67510613/106352108-fa57df00-6323-11eb-9d7a-cb689a770124.PNG">
+n의 값. 즉 feature의 개수가 너무클때는 (1000정도는 괜찮은데 10000부터는 힘들다) normal equation의 경우 inverse를 계산해야하기때문에 <br>
+시간이 매우 오래걸린다. 그럴경우엔 경사하강법이 더 적합한 방법이다.
+logistic regression 같은거 배울때 보면 노말이퀘이션은 쓰기힘들것. 주로 gradient descent 사용한다.<br>
+<hr>
+X'는 X의 transpose임. <br>
+X'X의 역행렬이 없으면 어떻게 되는가? octave에선 pinv(pseudo-inverse) 쓰면 그런경우에도 theta를 잘 구해준다.<br>
+X'X의 역행렬이 없게되는 경우는 무엇인가?(non-invertible)<br>
+쓸데없는 feature를 가지고 있는 경우이다. x1=size in feet^2이고 x2=size in m^2이면 x1=(3.28)^2*x2로 둘이 연관되어버린다. <br>
+
+다음은 너무 많은 feature를 가지고 있는 경우이다. (e.g. m<=n). 해결을 위해선 feature를 좀 지우거나 regularization을 이용한다.
 
 
 
