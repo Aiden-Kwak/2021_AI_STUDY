@@ -103,8 +103,12 @@ Gradient Descent for multuple variables<br>
 <strong>Feature Scaling</strong>
 <br>여러개의 feature가 있고 그 단위와 크기가 비슷하다면 다른 feature더라도 gradient descent는 더 빠르게 수렴할 수 있다.
 <img width="413" alt="scaling" src="https://user-images.githubusercontent.com/67510613/106347683-e9977100-6303-11eb-940f-90609bf7a990.PNG">
-왼쪽 그림에서는 범위의 차이가 크기 때문에 J를 그렸을때 굉장히 뾰족한 등고선이 나오며 이는 경사하강법을 적용했을때 오랜시간이 걸리게된다.<br>
+왼쪽 그림에서는 범위의 차이가 크기 때문에 J를 그렸을때 굉장히 뾰족한 등고선이 나오며 이는 경사하강법을 적용했을때 구불구불한 조정때문에 오랜시간이 걸리게된다.<br>
 오른쪽 그림에서와 같이 feature scaling은 범위를 비슷하게 맞춰줌으로써 J의 등고선이 거의 완전한 원을 그리도록 하고 경사하강법이 더 빨리 수렴하도록한다.<br>
+every feature는 -1에서 1 즈음에 근사하게한다. 0~3 ok. -2~0.5 ok. -100~100은 not ok. -0.0001~0.0001 not ok <br>
+<strong> Mean normalization</strong><br>
+
+
 
 
 
