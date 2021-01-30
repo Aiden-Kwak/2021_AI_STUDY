@@ -21,11 +21,14 @@ cost function을 계산할 때 전체 training set을 사용하는 것을 Batch 
 경사 하강법과 마찬가지로 매번 기울기를 구하지만, 이를 통해 오차를 수정하기 전에<br>
 바로 앞 수정 값과 방향(+, -)을 참고하여 같은 방향으로 일정한 비율만 수정되게 하는 방법이다.<br>
 현재 Gradient를 통해 이동하는 방향과 별개로 과거에 이동했던 방식을 기억하면서 그 방향으로 일정정도를 추가적으로 이동한다고 보면 될듯.<br>
-<img width="163" alt="momentum" src="https://user-images.githubusercontent.com/67510613/106354990-c4712580-6338-11eb-8e90-46199462d06b.PNG">
+<img width="263" alt="momentum" src="https://user-images.githubusercontent.com/67510613/106354990-c4712580-6338-11eb-8e90-46199462d06b.PNG">
 vt는 time step t에서의 이동벡터, gamma는 얼마나 momentum을 줄건지에 대한 term으로 보통 0.9정도 줌, <br><br>
 둘의 차이를 한번 보자.
 <img width="314" alt="sgdshit" src="https://user-images.githubusercontent.com/67510613/106355121-685ad100-6339-11eb-8530-a4c862ff5c39.PNG">
 <img width="314" alt="momentumcool" src="https://user-images.githubusercontent.com/67510613/106355124-6abd2b00-6339-11eb-891b-52dc07ab22fb.PNG">
+<img width="335" alt="momentumlomin" src="https://user-images.githubusercontent.com/67510613/106355229-ff278d80-6339-11eb-94d8-af37e8c6ffbe.PNG">
+<br>진동을 하더라도 중앙으로 가는 방향으로 관성이 걸려 더 빠르게 갈 수있다.<br><br>local minima를 빠져나오는 효과도 있다.<br>
+<img width="335" alt="momentumlomin" src="https://user-images.githubusercontent.com/67510613/106355229-ff278d80-6339-11eb-94d8-af37e8c6ffbe.PNG">
 
 
 
