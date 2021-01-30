@@ -113,6 +113,10 @@ ui는 average of all the value for features(i)이고 si는 (max-min) 또는 stan
 <hr>
 1. Debugging <br>
 2. How to choose learning rate 'alpha'<br>
+<img width="419" alt="debug" src="https://user-images.githubusercontent.com/67510613/106348374-2154e780-6309-11eb-811e-b9726be6c18a.PNG">
+alpha가 너무 크면 위에처럼 된다. 직접 반복횟수당 J(cost func)을 그려봐서 경사하강이 제대로 되는지를 체크할 수 있다. <br>
+제대로라면 매 반복마다 J는 감소하게 된다.
+
 
 
 
