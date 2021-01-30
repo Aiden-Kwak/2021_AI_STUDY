@@ -99,6 +99,11 @@ MSE같은 손실함수는 정담에 대한 오류를 숫자로 나타내는 것�
 <img width="289" alt="multifea2" src="https://user-images.githubusercontent.com/67510613/106318779-c0e78b00-62b3-11eb-816d-d6b2b2353617.PNG"><br>
 Gradient Descent for multuple variables<br>
 <img width="470" alt="multi3" src="https://user-images.githubusercontent.com/67510613/106319752-43bd1580-62b5-11eb-9b83-f9de8b9b248c.PNG">
+<hr>
+<strong>Feature Scaling</strong>
+<br>여러개의 feature가 있고 그 단위와 크기가 비슷하다면 다른 feature더라도 gradient descent는 더 빠르게 수렴할 수 있다.
+
+
 
 
 
