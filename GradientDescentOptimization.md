@@ -11,3 +11,7 @@ cost function을 계산할 때 전체 training set을 사용하는 것을 Batch 
 
 <hr>
 <h3>Stochastic Gradient Descent(SGD)</h3><br>
+이 방법은 전체 데이터(batch)를 사용하는 대신 랜덤하게 추출한 일부데이터(mini-batch)를 사용한다.<br>
+일부 데이터만을 이용하니까 좀 더 부정확할 수는 있는데 계산속도가 훨씬 빠르고 같은 시간에 더 많은 step을 가며,<br>
+여러번 반복하면 batch와 유사한 결과로 수렴한다. 또 Batch Descent에서 빠질 local minima에 빠지지 않고 더 좋은 방향으로 수렴할 가능성도 있다.<br>
+<img src="http://i.imgur.com/pD0hWu5.gif?1">
