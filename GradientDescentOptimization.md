@@ -26,7 +26,7 @@ vt는 time step t에서의 이동벡터, gamma는 얼마나 momentum을 줄건�
 둘의 차이를 한번 보자.
 <img width="314" alt="sgdshit" src="https://user-images.githubusercontent.com/67510613/106355121-685ad100-6339-11eb-8530-a4c862ff5c39.PNG">
 <img width="314" alt="momentumcool" src="https://user-images.githubusercontent.com/67510613/106355124-6abd2b00-6339-11eb-891b-52dc07ab22fb.PNG">
-<img width="335" alt="momentumlomin" src="https://user-images.githubusercontent.com/67510613/106355229-ff278d80-6339-11eb-94d8-af37e8c6ffbe.PNG">
+
 <br>진동을 하더라도 중앙으로 가는 방향으로 관성이 걸려 더 빠르게 갈 수있다.<br><br>local minima를 빠져나오는 효과도 있다.<br>
 <img width="335" alt="momentumlomin" src="https://user-images.githubusercontent.com/67510613/106355229-ff278d80-6339-11eb-94d8-af37e8c6ffbe.PNG">
 
