@@ -107,6 +107,8 @@ Gradient Descent for multuple variables<br>
 오른쪽 그림에서와 같이 feature scaling은 범위를 비슷하게 맞춰줌으로써 J의 등고선이 거의 완전한 원을 그리도록 하고 경사하강법이 더 빨리 수렴하도록한다.<br>
 every feature는 -1에서 1 즈음에 근사하게한다. 0~3 ok. -2~0.5 ok. -100~100은 not ok. -0.0001~0.0001 not ok <br>
 <strong> Mean normalization</strong><br>
+<img width="91" alt="mn" src="https://user-images.githubusercontent.com/67510613/106348026-51e75200-6306-11eb-8a71-98e54b0e0ba2.PNG">
+ui는 average of all the value for features(i)이고 si는 (max-min) 또는 standard deviation이다.
 
 
 
