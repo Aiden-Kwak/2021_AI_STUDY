@@ -109,6 +109,12 @@ every feature는 -1에서 1 즈음에 근사하게한다. 0~3 ok. -2~0.5 ok. -10
 <strong> Mean normalization</strong><br>
 <img width="91" alt="mn" src="https://user-images.githubusercontent.com/67510613/106348026-51e75200-6306-11eb-8a71-98e54b0e0ba2.PNG">
 ui는 average of all the value for features(i)이고 si는 (max-min) 또는 standard deviation이다.
+<img width="671" alt="mn2" src="https://user-images.githubusercontent.com/67510613/106348072-b0143500-6306-11eb-91df-ee686f1e2031.PNG">
+<hr>
+1. Debugging <br>
+2. How to choose learning rate 'alpha'<br>
+
+
 
 
 
