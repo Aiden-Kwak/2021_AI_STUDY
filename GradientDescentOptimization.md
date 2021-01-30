@@ -21,5 +21,8 @@ cost function을 계산할 때 전체 training set을 사용하는 것을 Batch 
 경사 하강법과 마찬가지로 매번 기울기를 구하지만, 이를 통해 오차를 수정하기 전에<br>
 바로 앞 수정 값과 방향(+, -)을 참고하여 같은 방향으로 일정한 비율만 수정되게 하는 방법이다.<br>
 현재 Gradient를 통해 이동하는 방향과 별개로 과거에 이동했던 방식을 기억하면서 그 방향으로 일정정도를 추가적으로 이동한다고 보면 될듯.<br>
+<img width="163" alt="momentum" src="https://user-images.githubusercontent.com/67510613/106354990-c4712580-6338-11eb-8e90-46199462d06b.PNG">
+vt는 time step t에서의 이동벡터, gamma는 얼마나 momentum을 줄건지에 대한 term으로 보통 0.9정도 줌, <br>
+
 
 
