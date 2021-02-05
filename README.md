@@ -149,6 +149,10 @@ ex) spam 분류기, 종양 양/음성 분류. <br>
 <img src="https://user-images.githubusercontent.com/67510613/107066700-a6686100-6821-11eb-9702-76d8e7c3105e.JPG">
 Binary-classification 문제이다. h=(theta)'x를 그리고 이걸로 예측.<br>
 <strong>선형회귀는 합리적인가? 위의 문제만 보면 그렇게 보인다.</strong><br>
+<img src="https://user-images.githubusercontent.com/67510613/107067278-68b80800-6822-11eb-9556-053753266015.JPG">
+x축 range를 늘려 뒤쪽에 데이터를 추가했더니 hypothesis는 새롭게 그려진다. 1,0을 나누는 지점도 새롭게 만들어진다. 결국 선형회귀를 이용해 더 안좋은 결과를 얻게 된것이다. <strong>선형회귀를 분류문제에 적용하는건 좋은생각이 아니다!</strong><br>
+logistic Regression을 이용하자! : 0 <= h <= 1
+
 
 
 
