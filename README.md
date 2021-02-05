@@ -138,6 +138,10 @@ X'X의 역행렬이 없게되는 경우는 무엇인가?(non-invertible)<br>
 쓸데없는 feature를 가지고 있는 경우이다. x1=size in feet^2이고 x2=size in m^2이면 x1=(3.28)^2*x2로 둘이 연관되어버린다. <br>
 
 다음은 너무 많은 feature를 가지고 있는 경우이다. (e.g. m<=n). 해결을 위해선 feature를 좀 지우거나 regularization을 이용한다.
+<hr>
+<h3>Vectorization</h3><br>
+<img src="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/H6qTdZmYEeaagxL7xdFKxA_2f0f671110e8f7446bb2b5b2f75a8874_Screenshot-2016-10-23-20.14.58.png?expiry=1611792000000&hmac=cqtMQlTK9mMvVbM28xf7tYYXMG44sEC1AnpGz-eTrhk">
+
 
 
 
