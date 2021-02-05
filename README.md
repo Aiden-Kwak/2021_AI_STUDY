@@ -146,6 +146,10 @@ X'X의 역행렬이 없게되는 경우는 무엇인가?(non-invertible)<br>
 <h3>Classification</h3><br>
 ex) spam 분류기, 종양 양/음성 분류. <br>
 0-> negative Class, 1-> Positive Class 
+<img src="https://user-images.githubusercontent.com/67510613/107066700-a6686100-6821-11eb-9702-76d8e7c3105e.JPG">
+Binary-classification 문제이다. h=(theta)'x를 그리고 이걸로 예측.<br>
+<strong>선형회귀는 합리적인가? 위의 문제만 보면 그렇게 보인다.</strong><br>
+
 
 
 
