@@ -142,6 +142,10 @@ X'X의 역행렬이 없게되는 경우는 무엇인가?(non-invertible)<br>
 <h3>Vectorization</h3><br>
 <img src="https://user-images.githubusercontent.com/67510613/107059245-e9720680-6818-11eb-9b48-47813a8bcb73.JPG">
 벡터화된 표현이 훨씬 간단하다.
+<hr>
+<h3>Classification</h3><br>
+ex) spam 분류기, 종양 양/음성 분류. <br>
+0-> negative Class, 1-> Positive Class 
 
 
 
