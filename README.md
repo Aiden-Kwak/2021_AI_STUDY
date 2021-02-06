@@ -188,6 +188,28 @@ y=0일때 h가 0으로가면 J=0, 1로가면 infinite.
 경사하강법의 적용은 다음과 같다. linear regression과 같은 식인걸 볼수 있는데 그렇다 해도 hypothesis를 sigmoid로 바꿨기때문에<br>
 다른식이다.<br>
 <img src="https://user-images.githubusercontent.com/67510613/107115452-29d09380-68b0-11eb-825b-c529857ecdd8.JPG">
+<hr>
+<h3>Advanced Optimization</h3><br>
+-Gradient descent<br>
+-Conjugate gradient<br>
+-BFGS<br>
+-L-BFGS<br>
+어떤 이점들이 있을까?<br>
+learning rate alpha를 수동적으로 고를필요가 없고, 보통 경사하강법보다 빠르다. 단점은 더 복잡하다는 것.<br>
+
+'''m
+function [jVal, gradient] = costFunction(theta)
+  jVal = [...code to compute J(theta)...];
+  gradient = [...code to compute derivative of J(theta)...];
+end
+'''
+
+'''
+options = optimset('GradObj', 'on', 'MaxIter', 100);
+initialTheta = zeros(2,1);
+   [optTheta, functionVal, exitFlag] = fminunc(@costFunction, initialTheta, options);
+'''
+
 
 
 
