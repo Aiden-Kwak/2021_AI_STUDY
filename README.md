@@ -158,6 +158,9 @@ logistic Regression을 이용하자! : 0 <= h <= 1
 g=1/(1+exp(-z))로 이를 sigmoid function 혹은 Logistic function이라 함.  
 <img src="https://user-images.githubusercontent.com/67510613/107112328-229e8b00-689a-11eb-8324-ffd79288e96e.JPG">
 <img src="https://user-images.githubusercontent.com/67510613/107112342-3d70ff80-689a-11eb-962d-a4908e492e3a.JPG">
+<hr>
+<h3>Decision Boundary</h3><br>
+
 
 
 
