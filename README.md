@@ -216,6 +216,7 @@ class가 여러개인 경우는 어떻게 분류하는가? 학습알고리즘을
 One-vs-all (one-vs-rest) 를 이용한다. <br>
 <img src="https://user-images.githubusercontent.com/67510613/107117716-9737f080-68bf-11eb-868b-a626d6bb8886.JPG">
 이걸 세가지의 binary-classification 문제로 바꿀것이다. 
+<img src="https://user-images.githubusercontent.com/67510613/107117788-07467680-68c0-11eb-8183-2317e57f9d0b.JPG">
 
 
 
