@@ -199,15 +199,15 @@ learning rate alpha를 수동적으로 고를필요가 없고, 보통 경사하�
 
 '''m<br>
 function [jVal, gradient] = costFunction(theta)<br>
-&nbsp;jVal = [...code to compute J(theta)...];<br>
-  gradient = [...code to compute derivative of J(theta)...];<br>
+&nbsp;&nbsp;&nbsp;jVal = [...code to compute J(theta)...];<br>
+&nbsp;&nbsp;&nbsp;gradient = [...code to compute derivative of J(theta)...];<br>
 end<br>
 '''<br>
 <br>
 '''<br>
 options = optimset('GradObj', 'on', 'MaxIter', 100);<br>
 initialTheta = zeros(2,1);<br>
-   [optTheta, functionVal, exitFlag] = fminunc(@costFunction, initialTheta, options);<br>
+&nbsp;&nbsp;&nbsp;[optTheta, functionVal, exitFlag] = fminunc(@costFunction, initialTheta, options);<br>
 '''<br>
 <br>
 
