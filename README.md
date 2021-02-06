@@ -197,19 +197,19 @@ y=0일때 h가 0으로가면 J=0, 1로가면 infinite.
 어떤 이점들이 있을까?<br>
 learning rate alpha를 수동적으로 고를필요가 없고, 보통 경사하강법보다 빠르다. 단점은 더 복잡하다는 것.<br>
 
-'''m
-function [jVal, gradient] = costFunction(theta)
-  jVal = [...code to compute J(theta)...];
-  gradient = [...code to compute derivative of J(theta)...];
-end
-'''
-
-'''
-options = optimset('GradObj', 'on', 'MaxIter', 100);
-initialTheta = zeros(2,1);
-   [optTheta, functionVal, exitFlag] = fminunc(@costFunction, initialTheta, options);
-'''
-
+'''m<br>
+function [jVal, gradient] = costFunction(theta)<br>
+  jVal = [...code to compute J(theta)...];<br>
+  gradient = [...code to compute derivative of J(theta)...];<br>
+end<br>
+'''<br>
+<br>
+'''<br>
+options = optimset('GradObj', 'on', 'MaxIter', 100);<br>
+initialTheta = zeros(2,1);<br>
+   [optTheta, functionVal, exitFlag] = fminunc(@costFunction, initialTheta, options);<br>
+'''<br>
+<br>
 
 
 
