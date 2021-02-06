@@ -213,7 +213,9 @@ initialTheta = zeros(2,1);<br>
 <hr>
 <h3>Multiclass Classification: One-vs-all</h3><br>
 class가 여러개인 경우는 어떻게 분류하는가? 학습알고리즘을 어떻게 적용할까? <br>
-One-vs-all (one-vs-rest) 를 이용한다. 
+One-vs-all (one-vs-rest) 를 이용한다. <br>
+<img src="https://user-images.githubusercontent.com/67510613/107117716-9737f080-68bf-11eb-868b-a626d6bb8886.JPG">
+이걸 세가지의 binary-classification 문제로 바꿀것이다. 
 
 
 
