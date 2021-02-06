@@ -161,6 +161,11 @@ g=1/(1+exp(-z))로 이를 sigmoid function 혹은 Logistic function이라 함.
 <hr>
 <h3>Decision Boundary</h3><br>
 
+<img src="https://user-images.githubusercontent.com/67510613/107113060-b0c94000-689f-11eb-945e-a12cbde2d3b6.JPG">
+<br>
+Non-linear Boundary<br>
+<img src="https://user-images.githubusercontent.com/67510613/107113062-b32b9a00-689f-11eb-87b0-c0638f24dd31.JPG">
+바운더리를 이런식으로 줄수도 있을것임. 이를 응용해 다양한 형태의 바운더리 만들 수 있을 것
 
 
 
