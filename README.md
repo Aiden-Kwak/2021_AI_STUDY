@@ -180,6 +180,8 @@ y=0일때 h가 0으로가면 J=0, 1로가면 infinite.
 <hr>
 <h3>Simplified Cost function and Gradient Descent</h3><br>
 어떻게 cost function을 간단하게 쓸것인가, 경사하강법을 이용해 로지스틱 회귀의 매개변수(theta)를 피팅하는 방법<br>
+앞서 아래의 y=0일때와 1일때로 구분된 식을 이야기했었는데 이걸 하나의 식으로 합칠 수가 있다. <br>
+
 
 
 
