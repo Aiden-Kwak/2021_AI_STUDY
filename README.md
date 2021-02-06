@@ -199,7 +199,7 @@ learning rate alpha를 수동적으로 고를필요가 없고, 보통 경사하�
 
 '''m<br>
 function [jVal, gradient] = costFunction(theta)<br>
-  jVal = [...code to compute J(theta)...];<br>
+&nbsp;jVal = [...code to compute J(theta)...];<br>
   gradient = [...code to compute derivative of J(theta)...];<br>
 end<br>
 '''<br>
