@@ -152,6 +152,11 @@ Binary-classification 문제이다. h=(theta)'x를 그리고 이걸로 예측.<b
 <img src="https://user-images.githubusercontent.com/67510613/107067278-68b80800-6822-11eb-9556-053753266015.JPG">
 x축 range를 늘려 뒤쪽에 데이터를 추가했더니 hypothesis는 새롭게 그려진다. 1,0을 나누는 지점도 새롭게 만들어진다. 결국 선형회귀를 이용해 더 안좋은 결과를 얻게 된것이다. <strong>선형회귀를 분류문제에 적용하는건 좋은생각이 아니다!</strong><br>
 logistic Regression을 이용하자! : 0 <= h <= 1
+<hr>
+<h3>Hypothesis Representation</h3><br>
+원래 선형회귀에선 hypothesis=(theta)'x를 썼음. logistic회귀를 위해 g(theta)'x를 사용.<br>
+g=1/(1+exp(-z))로 이를 도입한 이후 함수를 sigmoid function 혹은 Logistic function이라 함.                                                                                                                                              
+
 
 
 
