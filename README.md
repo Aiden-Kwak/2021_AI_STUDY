@@ -155,7 +155,7 @@ logistic Regression을 이용하자! : 0 <= h <= 1
 <hr>
 <h3>Hypothesis Representation</h3><br>
 원래 선형회귀에선 hypothesis=(theta)'x를 썼음. logistic회귀를 위해 g(theta)'x를 사용.<br>
-g=1/(1+exp(-z))로 이를 도입한 이후 함수를 sigmoid function 혹은 Logistic function이라 함.                                                                                                                                              
+g=1/(1+exp(-z))로 이를 sigmoid function 혹은 Logistic function이라 함.                                                                                                                                              
 
 
 
