@@ -210,7 +210,10 @@ initialTheta = zeros(2,1);<br>
 &nbsp;&nbsp;&nbsp;[optTheta, functionVal, exitFlag] = fminunc(@costFunction, initialTheta, options);<br>
 '''<br>
 <br>
-
+<hr>
+<h3>Multiclass Classification: One-vs-all</h3><br>
+class가 여러개인 경우는 어떻게 분류하는가? 학습알고리즘을 어떻게 적용할까? <br>
+One-vs-all (one-vs-rest) 를 이용한다. 
 
 
 
