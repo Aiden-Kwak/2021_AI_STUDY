@@ -171,6 +171,7 @@ Non-linear Boundary<br>
 어떻게 parameter(theta)를 찾을 것인가?<br>
 linear regression에서 했듯이 똑같은 cost function을 logistic function에서 쓰는 건 좋지 않은 선택이다. 왜냐면 convex하지 않은 output을 낼것이기 때문이다. convex하지 않으면 local optima가 많이 생겨서 도달점이 global optima라고 장담할 수 없다. <br>
 logistic regression에서 사용할 cost function은 다음과 같다. <br>
+<img src="https://user-images.githubusercontent.com/67510613/107114744-b9c00e80-68ab-11eb-88bf-a646807c979d.JPG">
 
 
 
