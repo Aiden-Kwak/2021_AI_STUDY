@@ -181,7 +181,13 @@ y=0일때 h가 0으로가면 J=0, 1로가면 infinite.
 <h3>Simplified Cost function and Gradient Descent</h3><br>
 어떻게 cost function을 간단하게 쓸것인가, 경사하강법을 이용해 로지스틱 회귀의 매개변수(theta)를 피팅하는 방법<br>
 앞서 아래의 y=0일때와 1일때로 구분된 식을 이야기했었는데 이걸 하나의 식으로 합칠 수가 있다. <br>
-
+<img src="https://user-images.githubusercontent.com/67510613/107115447-23dab280-68b0-11eb-95b3-4ef8a6649bdc.JPG">
+왜그런지는 y에 0,1넣어보면 납득이간다. <br>
+식을 완전히 쓰면 다음과 같다.<br>
+<img src="https://user-images.githubusercontent.com/67510613/107115451-2806d000-68b0-11eb-8e51-8c13f5e7418d.JPG">
+경사하강법의 적용은 다음과 같다. linear regression과 같은 식인걸 볼수 있는데 그렇다 해도 hypothesis를 sigmoid로 바꿨기때문에<br>
+다른식이다.<br>
+<img src="https://user-images.githubusercontent.com/67510613/107115452-29d09380-68b0-11eb-825b-c529857ecdd8.JPG">
 
 
 
