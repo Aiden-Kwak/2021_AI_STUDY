@@ -217,6 +217,19 @@ One-vs-all (one-vs-rest) 를 이용한다. <br>
 <img src="https://user-images.githubusercontent.com/67510613/107117716-9737f080-68bf-11eb-868b-a626d6bb8886.JPG">
 이걸 세가지의 binary-classification 문제로 바꿀것이다. 
 <img src="https://user-images.githubusercontent.com/67510613/107117788-07467680-68c0-11eb-8183-2317e57f9d0b.JPG">
+<hr>
+...........
+<hr>
+<h3>4 weeks</h3><br>
+<h3>Neural Networks: Non-linear Hypothesis</h3>
+n이 엄청 큰데 로지스틱 연산을 한다고 생각해보자. 엄청 비효율 적임. (ex. 컴퓨터 비전)<br>
+신경망의 배경: 뇌를 모방한 알고리즘이다. 80~90년대 널리 사용되었지만 계산비용이 큰만큼 어느순간 인기가 줄었는데 컴퓨터의 성능이 좋아지기 시작하면서 다시 주목 받게됨.<br>
+신경망을 표현할 때 가설이나 모델을 어떻게 표현할 것인가?
+
+
+
+
+
 
 
 
