@@ -228,7 +228,10 @@ n이 엄청 큰데 로지스틱 연산을 한다고 생각해보자. 엄청 비�
 <img width="797" alt="neuron" src="https://user-images.githubusercontent.com/67510613/107842672-5cc2dc00-6e08-11eb-8977-3c637863761f.PNG">
 실제 뉴런의 dendrite, axon에 대입해 볼 수 있을 것이다. x0는 항상 1을 나타내기에 생략하기도 한다.<br>
 <img width="794" alt="hiddenlayer" src="https://user-images.githubusercontent.com/67510613/107842760-fc806a00-6e08-11eb-87f7-e5e06886866e.PNG">
-input layer, output layer 사이의 레이어들은 hidden layer라고 한다. 
+input layer, output layer 사이의 레이어들은 hidden layer라고 한다. <br>
+unit들의 계산은 아래와 같이 이루어진다
+<img width="795" alt="neural network" src="https://user-images.githubusercontent.com/67510613/107842889-00f95280-6e0a-11eb-9fab-400f768f6058.PNG">
+g=sigmoid activation function
 
 
 
