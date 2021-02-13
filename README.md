@@ -226,7 +226,10 @@ n이 엄청 큰데 로지스틱 연산을 한다고 생각해보자. 엄청 비�
 신경망의 배경: 뇌를 모방한 알고리즘이다. 80~90년대 널리 사용되었지만 계산비용이 큰만큼 어느순간 인기가 줄었는데 컴퓨터의 성능이 좋아지기 시작하면서 다시 주목 받게됨.<br>
 신경망을 표현할 때 가설이나 모델을 어떻게 표현할 것인가?<br>
 <img width="797" alt="neuron" src="https://user-images.githubusercontent.com/67510613/107842672-5cc2dc00-6e08-11eb-8977-3c637863761f.PNG">
-실제 뉴런의 dendrite, axon에 대입해 볼 수 있을 것이다. x0는 항상 1을 나타내기에 생략하기도 한다.
+실제 뉴런의 dendrite, axon에 대입해 볼 수 있을 것이다. x0는 항상 1을 나타내기에 생략하기도 한다.<br>
+<img width="794" alt="hiddenlayer" src="https://user-images.githubusercontent.com/67510613/107842760-fc806a00-6e08-11eb-87f7-e5e06886866e.PNG">
+input layer, output layer 사이의 레이어들은 hidden layer라고 한다. 
+
 
 
 
